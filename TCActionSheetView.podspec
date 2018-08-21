@@ -27,8 +27,8 @@ Pod::Spec.new do |s|
 
    s.requires_arc = true
 
-# s.cource_files   =    "TCActionSheetView/**/*.{h,m}"
-    s.resources    =   "TCActionSheetView/**/*.{xib,storyboard,bundle}"
+ s.cource_files   =    "TCActionSheetView/TCActionSheetView/*.swift"
+
 
 
 end
