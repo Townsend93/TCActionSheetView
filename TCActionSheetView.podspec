@@ -19,16 +19,16 @@ Pod::Spec.new do |s|
 
   s.author             = { "tanchenggithub" => "824376052@qq.com" }
 
-    s.social_media_url   =  "https://github.com/tanchenggithub"
+  s.social_media_url   =  "https://github.com/tanchenggithub"
 
-   s.platform     = :ios, "9.0"
+  s.platform     = :ios, "9.0"
 
   s.source       = { :git => "https://github.com/tanchenggithub/TCActionSheetView.git", :tag => s.version }
 
-   s.requires_arc = true
+  s.requires_arc = true
 
- s.cource_files   =    "TCActionSheetView/TCActionSheetView/*.swift"
-
+s.source_files   =    "TCActionSheetView/TCActionSheetView/*.swift"
+swift_version = 4.0
 
 
 end
