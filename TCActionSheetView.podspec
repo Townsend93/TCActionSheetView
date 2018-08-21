@@ -27,8 +27,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-s.source_files   =    "TCActionSheetView/TCActionSheetView/*.swift"
-swift_version = 4.0
+  s.source_files   =    "TCActionSheetView/TCActionSheetView/*.swift"
 
+    s.swift_version = "4.0"
 
 end
